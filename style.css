@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f7f7fe;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #6e728e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 6.4em 0 7.1em;
+}
+
+main {
+  text-align: center;
+}
+
+main.title {
+  font-size: 3.2rem;
+  font-size: 15px;
+}
+
+.membership-length {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-top: 4rem;
+  justify-content: center;
+}
+
+.membership-length .annually,
+.membership-length .monthly {
+  opacity: 0.5;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+}
+
+.toggle-switch {
+  width: 5.6rem;
+  height: 3.2rem;
+  background: linear-gradient(#a2a7f0, #696edd);
+  border-radius: 999px;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle-switch-inner {
+  background-color: #fff;
+  width: 2.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  transform: translateY(-50%);
+}
+
+.toggle-switch-inner:active {
+  left: 4px;
+  right: 0;
+}
+
+.cards {
+  margin-top: 8.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.25rem;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 3.1em 2.9em;
+  background-color: #fff;
+  box-shadow: 0px 20px 40px 0px rgba(212, 210, 244, 0.5);
+}
+
+.card-dark {
+  box-shadow: 0px 20px 40px 0px rgba(212, 210, 244, 0.5);
+  background: linear-gradient(135deg, #a2a7f0 0.06%, #696edd 100.06%);
+}
+
+.card-dark,
+.card-dark .plan-price {
+  color: #f7f7fe;
+}
+
+.plan {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+.plan-price {
+  color: #4a4d60;
+  font-size: 7.2rem;
+  line-height: 7.1rem;
+  letter-spacing: -2.16px;
+  margin: 2.4rem 0 3.2rem;
+}
+
+.plan-details p {
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  border-bottom: 1px solid hsla(259, 85%, 55%, 0.25);
+  padding: 1.2rem 0;
+}
+
+.plan-details p:first-child {
+  border-top: 1px solid hsla(259, 85%, 55%, 0.25);
+}
+
+.card-dark .plan-details p {
+  border-bottom: 1px solid #fff;
+}
+
+.card-dark .plan-details p:first-child {
+  border-top: 1px solid #fff;
+}
+
+.cta {
+  padding: 1.4em 8.2em;
+  border-radius: 0.6em;
+  background: linear-gradient(135deg, #a2a7f0 0%, #696edd 100%);
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: none;
+  letter-spacing: 1.393px;
+  display: inline-block;
+  margin-top: 3.2rem;
+}
+
+.card-dark .cta {
+  background: #fff;
+  color: #696edd;
+}
+
+.hidden {
+  display: none;
+}
+
+.left {
+  left: 4px;
+  right: 0;
+}

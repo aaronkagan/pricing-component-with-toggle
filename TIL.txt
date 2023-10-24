@@ -1,1 +1,0 @@
-Use hidden elements that get shown by adding a class rather than adding the inner text via JS (unless the user is inputting something dynamic)

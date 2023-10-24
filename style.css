@@ -161,13 +161,12 @@ main.title {
 @media screen and (min-width: 1300px) {
   .cards {
     flex-direction: row;
-    gap: 1.7rem;
+    gap: 0;
+    align-items: center;
   }
 
   .card-dark {
-    /* padding-top: 4em;
-    padding-bottom: 4em; */
-    min-height: 50rem;
-    scale: 1.1;
+    padding-top: 5em;
+    padding-bottom: 5em;
   }
 }

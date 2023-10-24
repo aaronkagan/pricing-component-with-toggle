@@ -3,8 +3,8 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
+  - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -12,13 +12,13 @@
 
 ## Overview
 
+### Links
+
+[Live Demo](https://aaronkagandev-pricingwithtoggle.netlify.app/)
+
 ### Screenshot
 
 ![Pricing component](./images/desktop-view.png)
-
-### Links
-
-- Live Demo: [Live Demo:](https://aaronkagandev-pricingwithtoggle.netlify.app/)
 
 ## My process
 

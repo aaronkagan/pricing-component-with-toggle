@@ -14,7 +14,7 @@
 
 ### Links
 
-[Live Demo](https://aaronkagandev-pricingwithtoggle.netlify.app/)
+- Live Demo: [Pricing Component With Toggle](https://aaronkagandev-pricingwithtoggle.netlify.app/)
 
 ### Screenshot
 

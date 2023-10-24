@@ -20,6 +20,8 @@ body {
   padding: 6.4em 0 7.1em;
 }
 
+/*** Mobile View ***/
+
 main {
   text-align: center;
 }
@@ -151,6 +153,8 @@ main.title {
   left: 4px;
   right: 0;
 }
+
+/*** Desktop View ***/
 
 @media screen and (min-width: 1300px) {
   .cards {

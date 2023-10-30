@@ -62,8 +62,11 @@ I plan to implement the following features:
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
 
+
 ## Author
 
 - Portfolio - [aaronkagan.dev](https://www.aaronkagan.dev)
+- Linkedin - [/aaron-kagan](https://www.linkedin.com/in/aaron-kagan/)
 - X - [@aaronkagandev](https://www.twitter.com/aaronkagandev)
 - Instagram - [aaronkagandev](https://www.instagram.com/aaronkagandev/)
+
